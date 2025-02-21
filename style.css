@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --cls-primary: #f6f6f7;
+  --cls-text: #001725;
+  --blue-bg: #0074b8;
+  --green-bg: #32b24d;
+  --yellow-bg: #fed349;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* * {
+  outline: red solid 1px;
+} */
+
+body {
+  padding: 2rem;
+  font-family: "Inter", sans-serif;
+  color: var(--cls-text);
+  background-color: var(--cls-primary);
+}
+
+header {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  width: 52vw;
+}
+
+main {
+  padding-left: 2rem;
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.card__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.box__container--yellow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.card__item {
+  margin-right: 6rem;
+}
+
+.card__width--first {
+  width: 362px;
+}
+
+.card__width--second {
+  width: 400px;
+}
+
+.card__width--third {
+  width: 400px;
+}
+
+.box__style {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: fit-content;
+  height: fit-content;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  
+  border-radius: 20px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.box__blue {
+  background-color: var(--blue-bg);
+  color: #f6f6f7;
+  font-size: 5rem;
+}
+
+.box__green {
+  background-color: var(--green-bg);
+  color: #001725;
+  font-size: 4.5rem;
+}
+
+.box__text--green {
+  font-size: 3.5rem;
+}
+
+.box__yellow {
+  background-color: var(--yellow-bg);
+  color: #001725;
+}
+
+.box__width {
+  width: 45%;
+}
+
+.box__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.text__slim {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.text__bold {
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+
+.margin-top {
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+
+.button__style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  width: 12rem;
+  height: 3rem;
+  font-size: 1rem;
+  
+  border-radius: 10px;
+  outline: var(--cls-text) solid 2px;
+  background-color: var(--cls-primary);
+  color: var(--cls-text);
+  font-weight: bold;
+  box-shadow: 6px 6px 0px rgba(0, 0, 0, 1);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
