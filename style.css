@@ -16,9 +16,9 @@
   box-sizing: border-box;
 }
 
-/* * {
+* {
   outline: red solid 1px;
-} */
+}
 
 body {
   padding: 2rem;
@@ -34,7 +34,6 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  width: 52vw;
 }
 
 main {
@@ -56,24 +55,21 @@ h2 {
 .box__container--yellow{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: start;
 }
 
-.card__item {
-  margin-right: 6rem;
-}
+
 
 .card__width--first {
-  width: 362px;
+  width: 466px;
 }
 
 .card__width--second {
-  width: 400px;
+  width: 450px
 }
 
 .card__width--third {
-  width: 400px;
+  width: 600px;
 }
 
 .box__style {
@@ -90,29 +86,36 @@ h2 {
   font-weight: bold;
 }
 
-.box__blue {
+.box__blue--one {
   background-color: var(--blue-bg);
   color: #f6f6f7;
-  font-size: 5rem;
+  font-size: 4.5rem;
 }
-
-.box__green {
-  background-color: var(--green-bg);
-  color: #001725;
+.box__blue--two {
+  padding: 0.5rem 0.1rem;
+  background-color: var(--blue-bg);
+  color: #f6f6f7;
   font-size: 4.5rem;
 }
 
-.box__text--green {
-  font-size: 3.5rem;
+.box__green--one {
+  background-color: var(--green-bg);
+  color: #001725;
+  font-size: 4.5rem;
+  
+}
+.box__green--two {
+  background-color: var(--green-bg);
+  color: #001725;
+  font-size: 3.7rem;
+
 }
 
 .box__yellow {
   background-color: var(--yellow-bg);
   color: #001725;
-}
-
-.box__width {
-  width: 45%;
+  font-size: 3.5rem;
+  margin-right: 1rem;
 }
 
 .box__item {
@@ -120,6 +123,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: start;
+}
+
+.text__small {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .text__slim {
@@ -130,24 +138,22 @@ h2 {
 .text__bold {
   margin-bottom: 2rem;
   font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .margin-top {
   margin-bottom: 0;
-  margin-top: 1.5rem;
 }
 
 .margin-bottom {
-  margin-bottom: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 .button__style {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem 2rem;
-  margin-left: 2rem;
-  width: 12rem;
+  width: 11rem;
   height: 3rem;
   font-size: 1rem;
   
