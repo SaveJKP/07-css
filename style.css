@@ -16,9 +16,9 @@
   box-sizing: border-box;
 }
 
-* {
+/* * {
   outline: red solid 1px;
-}
+} */
 
 body {
   padding: 2rem;
@@ -127,7 +127,6 @@ h2 {
 
 .text__small {
   font-size: 0.8rem;
-  font-weight: bold;
 }
 
 .text__slim {
